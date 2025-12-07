@@ -50,6 +50,7 @@ function createMainWindow() {
       if (splashWindow) {
         splashWindow.close();
       }
+      mainWindow.maximize();
       mainWindow.show();
     }, 2000);
   });
